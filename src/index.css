@@ -1,13 +1,56 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+    --cor-bg: #1f2641;
+    --cor-bg1: #2e3267;
+    --cor-bg2: #424890;
+    --cor-primaria: #151320;
+  
+    --cor-sucesso: #00bf8e;
+    --cor-alerta: #f7c94b;
+    --cor-perigo: #f75842;
+    --cor-perigo-variante: rgba(247, 88, 66, 0.4);
+  
+    --cor-branco: #fff;  
+    --cor-cinza:#eee;    
+    --cor-cinza1: #ccc;
+    --cor-cinza2:#edeef1;
+    --cor-cinza-variante: rgba(255, 255, 255, 0.7);
+    --cor-preto: #000;
+    
+    --cor-roxo: #454cad;
+    --cor-azul-var: #5f6982;
+    --cor-verde: #3be7bc;
+    --cor-azul:#2192FF;
+    
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+
+    --transition: all 600ms ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+
+  line-height: 1.7;
+  background-image: url(../src/assets/bg-texture.png);
 }

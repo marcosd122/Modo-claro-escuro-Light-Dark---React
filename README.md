@@ -1,3 +1,22 @@
+# Curso-WEB -- Seção Acordeões - Light-Dark - React
+
+Projeto de desenvolvimento Seção Acordeões - Light-Dark - React
+
+Atividade curso Web
+
+## Tarefas
+
+O controle das tarefas desse projeto será realizado no Github
+
+## Ícones
+
+- :package: nova funcionalidade
+- :up: atualização
+- :bug: correção de bug
+- :checkered_flag: release
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
